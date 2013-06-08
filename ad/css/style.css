@@ -1,7 +1,9 @@
 body{
-    background: #fff;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
+    background: url(../images/bk.jpg) no-repeat top left fixed;
+    background-size: 100% 100%;
+    min-height: 700px;
 }
 
 /* FONT STYLES*/
@@ -42,28 +44,26 @@ a, a:link, a:visited{
 strong{
     font-weight: bold;
 }
+.page_width{
+    width: 960px;
+}
 /* END FONTS STYLES */
 
 /* HEADER */
 #header-wrap{
-    border-top: 10px solid #4d9543;
+    border-left: 100px;
     padding-top: 40px;
+    background: url(../images/xiaoguo.png)
 }
 header{
     width: 960px;
     margin: 0 auto;
     padding: 0;
 }
-header h2 a{
-    display: block;
-    text-indent: -999999px;
-    background: url(images/bk.jpg) no-repeat;
-    width: 214px;
-    height: 77px;
-    float: left;
-    margin-bottom: 40px;
+#world-container{
+    width: 960px;
+    margin: 0 auto; 
 }
-
 #signup{
     float: right;
     display: inline;
@@ -74,111 +74,29 @@ header h2 a{
 #imqq {
     float: right;
     display: inline;
-    border-right: 3px solid #c8c8c8;
+    border-right: 2px solid #11608B;
     padding-right: 15px;
     margin-right: 10px;
     margin-top: 10px;
 }
 
-
-#call h3{
-    margin: 0;
+#container {
+    background: #f8fcff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #CCC; /* 邊框樣式 */
+    -moz-box-shadow: 1px 1px 5px #999; /* Firefox */
+    -webkit-box-shadow: 1px 1px 5px #999; /* Safari 和 Chrome */
+    box-shadow: 1px 1px 5px #999; /* Opera 10.5 + */
 }
-#call h4{
-    text-align: right;
-    margin: 0;
-}
 
-nav{
-    clear: both;
+footer {
+    Position: absolute;
+    width: 100%;
+    bottom: 0;
+    Height: 25px;
+    text-align: center;
     width: 960px;
-    height: 50px;
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    background-color: #3b7c33; /* Fallback */
-    border-radius: 30px;
-    /* Safari 4+, Chrome 1-9 */
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5fae53), to(#3b7c33));
-    /* Safari 5.1+, Mobile Safari, Chrome 10+ */
-    background-image: -webkit-linear-gradient(top, #5fae53, #3b7c33);
-    /* Firefox 3.6+ */
-    background-image: -moz-linear-gradient(top, #5fae53, #3b7c33);
-    /* IE 10+ */
-    background-image: -ms-linear-gradient(top, #5fae53, #3b7c33);
-    /* Opera 11.10+ */
-    background-image: -o-linear-gradient(top, #5fae53, #3b7c33);
-    border: 1px solid #336c2b;
 }
-
-nav ul li{
-    float: left;
-    border-right: 1px solid #336c2b;
-    border-left: 1px solid #78c368;
-}
-nav ul li.home{
-    border-left: none;
-    text-indent: -9999px;
-    background: url(images/home.png) no-repeat 50% 50%;
-}
-
-nav ul li.last{
-    border-left: none;
-    border-right: none;
-    float: right;
-    margin-right: 20px;
-}
-nav ul li a{
-    display: block;
-    padding: 0 30px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 15px;
-    color: #fff;
-    text-shadow: 0 1px 0 #387031;
-}
-nav ul li a:hover{
-    background: #5fae53;
-}
-
-nav ul li.home a:hover{
-    -webkit-border-top-left-radius: 30px;
-    -webkit-border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    background: #5fae53 url(images/home.png) no-repeat 50% 50%;
-}
-nav ul li div input[type=text]{
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    background: #4b9241;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #5ead52;
-    border-top: 1px solid #346d2c;
-    color: #fff;
-    text-shadow: 0 1px 0 #387031;
-    padding: 5px 0 5px 20px;
-    width: 200px;
-}
-nav ul li div input[type=text]:focus{
-    outline: none;
-}
-
-/* TO STYLE PLACE HOLDER */
-::-webkit-input-placeholder {
-    color: #fff;
-}
-:-moz-placeholder {
-    color: #fff;
-}
-
-nav ul li div input[type=submit]{
-    background: url(images/search.png) no-repeat 50% 50%;
-    border: none;
-    text-indent: -999999px;
-    margin-left: 15px;
-    height: 50px;
-    width: 16px;
-}
-
 /* END HEADER */
