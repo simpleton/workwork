@@ -6,6 +6,7 @@ body{
     min-height: 700px;
 }
 
+
 /* FONT STYLES*/
 h3{
     font-size: 24px;
@@ -22,6 +23,7 @@ h5{
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 p{
     font-size: 13px;
     color: #555555;
@@ -41,33 +43,42 @@ a, a:link, a:visited{
 .white{
     color: #fff;
 }
+.container_text_color{
+    color: #454545
+}
+.btn_text_color{
+    color: #464644
+}
+.context_text{
+    margin-left: 145px;
+}
 strong{
     font-weight: bold;
 }
-.page_width{
-    width: 960px;
-}
+
 /* END FONTS STYLES */
 
 /* HEADER */
 #header-wrap{
     border-left: 100px;
-    padding-top: 40px;
+    padding-top: 20px;
     background: url(../images/xiaoguo.png)
 }
 header{
-    width: 960px;
+    width: 900px;
     margin: 0 auto;
     padding: 0;
 }
+/*END HEADER*/
+
+/*ID STYLES*/
 #world-container{
-    width: 960px;
+    width: 900px;
     margin: 0 auto; 
 }
 #signup{
     float: right;
     display: inline;
-    margin-top: 10px;
     padding-right: 15px;
 }
 
@@ -77,11 +88,11 @@ header{
     border-right: 2px solid #11608B;
     padding-right: 15px;
     margin-right: 10px;
-    margin-top: 10px;
 }
 
 #container {
     background: #f8fcff;
+    min-height: 356px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -91,12 +102,34 @@ header{
     box-shadow: 1px 1px 5px #999; /* Opera 10.5 + */
 }
 
+#error_reason {
+    margin-top: 75px;
+}
+#btn_ok {
+    font-size: 13px;
+    width: 95px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 36px;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: solid 1px #CCC; /* 邊框樣式 */
+    -moz-box-shadow: 1px 1px 2px #33a1dc; /* Firefox */
+    -webkit-box-shadow: 1px 1px 2px #33a1dc; /* Safari 和 Chrome */
+    box-shadow: 1px 1px 2px #33a1dc; /* Opera 10.5 + */
+}
+/*END ID STYLE*/
+
 footer {
+    font-size: 11px;
     Position: absolute;
     width: 100%;
     bottom: 0;
-    Height: 25px;
+    Height: 40px;
     text-align: center;
     width: 960px;
+    color: #93a3bf;
 }
 /* END HEADER */
