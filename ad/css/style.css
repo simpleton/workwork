@@ -101,7 +101,13 @@ header{
     -webkit-box-shadow: 1px 1px 5px #999; /* Safari 和 Chrome */
     box-shadow: 1px 1px 5px #999; /* Opera 10.5 + */
 }
-
+#error_icon {
+     position: absolute;
+     width: 52px;
+     height: 52px;
+     margin-left: 88px;
+     margin-top: 62px;
+}
 #error_reason {
     margin-top: 75px;
 }
