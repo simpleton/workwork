@@ -140,37 +140,3 @@ footer {
 }
 /* END HEADER */
 
-/*add by jamiemo*/
-#btn_next {
-    font-size: 13px;
-    width: 95px;
-    height: 30px;
-    font-weight: bold;
-    margin-top: 36px;
-
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    border: solid 1px #CCC; /* 邊框樣式 */
-    -moz-box-shadow: 1px 1px 2px #33a1dc; /* Firefox */
-    -webkit-box-shadow: 1px 1px 2px #33a1dc; /* Safari 和 Chrome */
-    box-shadow: 1px 1px 2px #33a1dc; /* Opera 10.5 + */
-}
-
-div#form-container {
-    width:800px;
-}
-
-input[type="TEXT"] {
-    width:300px;
-    height:25px;
-    margin-left:15px;
-}
-
-.row2 {
-    margin-left:15px;
-}
-
-td {
-    line-height:50px;
-}
