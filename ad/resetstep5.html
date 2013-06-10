@@ -1,27 +1,36 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8">
     <title>QQ Account Appeal</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<table border="0" cellspacing="5" cellpadding="5">
-    <tr>
-        <td><img src="images/error.jpg" alt=""/></td><!--just placeholder-->
-        <td>Congratulations!</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>
-            <p>
-                Your changes were successfully saved.
-                <br/>
-                Now download the latest version of QQ International and join the fun!
-            </p>
-            <p><button type="button">Download</button></p>
-        </td>
-    </tr>
-</table>
-</body>
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/JavaScript">
+      $(document).ready(function(){ 
+      $("#container").load("if_resetstep5.html")
+      });
+    </script>
+  </head>
+  <body>
+    <div id="world-container">
+      <div id="header-wrap" background="images/xiaoguo.png">
+	<a href="index.html" id="header_img" title="QQ Account Appeal">
+	  <img src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a>
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
+
+      <div id="container">
+      </div> <!--! end container -->
+
+      <footer>
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </footer>
+    </div>
+  </body>
 </html>

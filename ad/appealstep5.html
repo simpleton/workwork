@@ -1,44 +1,36 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8">
     <title>QQ Account Appeal</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<table border="0" cellspacing="0" cellpadding="0">
-    <tr>
-        <td>Contact Information</td>
-        <td>Apeal Information</td>
-        <td>Finish</td>
-    </tr>
-</table>
-<table border="0" cellspacing="0" cellpadding="0">
-    <tr>
-        <td></td>
-        <td>
-            Appeal Submitted
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>
-            <br/>
-            Receipt number for this appeal: 23449888
-            <br/>
-            <br/>
-            Please remember your Receipt number because you will eventually need it.
-            <p>
-            Our team is now evaluating your request and will let you know the result via email.
-            <br/>
-            Please check your email after four hours.
-            <br/>
-            If the outcome of your appeal is positive, you will be able to reset your password
-            <br/>
-            by using Receipt number.
-            </p>
-        </td>
-    </tr>
-</table>
-</body>
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/JavaScript">
+      $(document).ready(function(){ 
+      $("#container").load("if_appealstep5.html")
+      });
+    </script>
+  </head>
+  <body>
+    <div id="world-container">
+      <div id="header-wrap" background="images/xiaoguo.png">
+	<a href="index.html" id="header_img" title="QQ Account Appeal">
+	  <img src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a>
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
+
+      <div id="container">
+      </div> <!--! end container -->
+
+      <footer>
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </footer>
+    </div>
+  </body>
 </html>

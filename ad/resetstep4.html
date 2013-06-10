@@ -1,63 +1,36 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8">
     <title>QQ Account Appeal</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<table border="0" cellspacing="0" cellpadding="0">
-    <tr>
-        <td>Set Security Questions</td>
-        <td>Verify Security Questions</td>
-        <td>Set New Password</td>
-    </tr>
-</table>
-<p>Set New Password</p>
-<div id="form-container">
-    <form action="submit" method="get" accept-charset="utf-8">
-        <table border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td>New Password</td>
-                <td>
-                    <input type="TEXT" id="password">
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <div>6-16 characters. Number only password must be 9 digits or longer,<br/> no space. case-sensitive</div>
-                </td>
-            </tr>
-            <tr>
-                <td>Password Strength</td>
-                <td>
-                    <img src=""  alt=""/><!-- placeholder= -->
-                </td>
-            </tr>
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/JavaScript">
+      $(document).ready(function(){ 
+      $("#container").load("if_resetstep4.html")
+      });
+    </script>
+  </head>
+  <body>
+    <div id="world-container">
+      <div id="header-wrap" background="images/xiaoguo.png">
+	<a href="index.html" id="header_img" title="QQ Account Appeal">
+	  <img src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a>
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
 
-            <tr>
-                <td></td>
-                <td>
-                    <p>To improve the security of your password, we suggest you use a <br/> combination of English letters, numerals and/or symbols</p>
-                </td>
-            </tr>
-            <tr>
-                <td>Confirm Password</td>
-                <td>
-                    <input type="TEXT" id="confirmpassword">
-                </td>
-            </tr>
+      <div id="container">
+      </div> <!--! end container -->
 
-            <tr>
-                <td></td>
-                <td>
-                    <input type="SUBMIT" value="Previous" id="btn_previous">
-                    <input type="SUBMIT" value="Sumbit" id="btn_next">
-                </td>
-            </tr>
-        </table>
-    </form>
-</div>
-</body>
+      <footer>
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </footer>
+    </div>
+  </body>
 </html>

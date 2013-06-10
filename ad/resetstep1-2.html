@@ -1,54 +1,36 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8">
     <title>QQ Account Appeal</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="form-container">
-    <form action="submit" method="get" accept-charset="utf-8">
-        <table border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td>QQ Account</td>
-                <td><input type="TEXT" id="account" placeholder="QQ ID/Email/Mobile"></td>
-                <td >
-                    <div style="margin-left:10px;color:red">
-                        Please enter your account
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>Receipt Number</td>
-                <td><input type="TEXT" id="receipt"></td>
-            </tr>
-            <tr>
-                <td>Success Certificate</td>
-                <td><input type="TEXT" id="certificate"></td>
-            </tr>
-            <tr>
-                <td>Verification Code</td>
-                <td><input type="TEXT" id="verificationcode"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                   Please enter the characters from the image below<br/>(case insensitive)
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <img src="images/verifycode.png" alt=""/>
-                    Not Clear?
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="SUBMIT" value="Next" id="btn_next"></td>
-            </tr>
-        </table>
-    </form>
-</div>
-</body>
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/JavaScript">
+      $(document).ready(function(){ 
+      $("#container").load("if_resetstep1-2.html")
+      });
+    </script>
+  </head>
+  <body>
+    <div id="world-container">
+      <div id="header-wrap" background="images/xiaoguo.png">
+	<a href="index.html" id="header_img" title="QQ Account Appeal">
+	  <img src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a>
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
+
+      <div id="container">
+      </div> <!--! end container -->
+
+      <footer>
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </footer>
+    </div>
+  </body>
 </html>

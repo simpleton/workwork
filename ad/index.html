@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <title>QQ Account Appeal</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/JavaScript">
+      $(document).ready(function(){ 
+      $("#container").load("if_appealstep1.html")
+      });
+    </script>
   </head>
   <body>
     <div id="world-container">
@@ -20,22 +26,6 @@
       </div><!-- end header wrap -->
 
       <div id="container">
-	<img id="error_icon" src="images/error.jpg">
-
-	<p id="error_reason" class="context_text">
-	  Your receipt number is incorrect!
-	</p><!-- end error_reason -->
-
-	<p class="context_text">
-	  (Error code:
-	  <b>%{code}</b>
-	  )
-	</p>
-	
-	<button type="button" id="btn_ok" class="context_text">
-	  OK
-	</button>
-	  
       </div> <!--! end container -->
 
       <footer>

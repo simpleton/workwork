@@ -1,63 +1,36 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8">
     <title>QQ Account Appeal</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<h4>Tips:</h4>
-<ol type="1">
-    <li>Appeals allow you to resolve forgotten password and security questions, modify <br/> your security questions.</li>
-    <li>The result will be sent to your email address within four hours.</li>
-    <li>Once your appeal is successed, you can reset your password, security questions.</li>
-</ol>
-<div id="form-container">
-    <form action="submit" method="get" accept-charset="utf-8">
-        <table border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td>QQ Account</td>
-                <td>
-                    <input type="TEXT" name="account" value="" id="account">
-                </td>
-            </tr>
-            <tr>
-                <td>Verification Code</td>
-                <td>
-                    <input type="TEXT" name="code" value="" id="code">
-                </td>
-            </tr>
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/JavaScript">
+      $(document).ready(function(){ 
+      $("#container").load("if_appealstep1.html")
+      });
+    </script>
+  </head>
+  <body>
+    <div id="world-container">
+      <div id="header-wrap" background="images/xiaoguo.png">
+	<a href="index.html" id="header_img" title="QQ Account Appeal">
+	  <img src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a>
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
 
-            <tr>
-                <td></td>
-                <td>
-                    <p>Please enter the characters from the image below (case-sensitive)</p>
-                    <p>
-                        <img src="images/verifycode.png" alt="">
-                        Not clear?
-                    </p>
-                    <p>
-                        <input type="checkbox" name="some_name" value="" id="some_name">
-                        I have read and agreed to the <a href="" target="_blank">Service Agreement</a>
-                    </p>
-                </td>
-            </tr>
-        </table>
+      <div id="container">
+      </div> <!--! end container -->
 
-    </form>
-    <h4>FAQ:</h4>
-    <h5>What are the steps in the appeal process?</h5>
-    <ol>
-        <li>Verify your contact email address</li>
-        <li>Fill in your historical data for account verification</li>
-        <li>Check your email after four hours and set new password and security questions</li>
-    </ol>
-    <h5>How can i increase my chances of a successful appeal?</h5>
-    <ol>
-        <li>Original Information: Provide historical data, for example, the earliest possible <br/> passwords.</li>
-        <li>Comppleteness: Fill in as may fields as possible even if your are uncertain. You are <br/>
-    not penalized for incorrect information.</li>
-    </ol>
-</div>
-</body>
+      <footer>
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </footer>
+    </div>
+  </body>
 </html>
