@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>QQ Account Appeal-Input accout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/step1.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="world-container">
+          <div id="header-wrap">
+	<a href="index.html"  title="QQ Account Appeal">
+	  <img id="header_img" src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a> |
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
+    <div id="container" class="maxMain">
+    
+   <div class="mainContent">
+   
+<div id="apTips">
+<div class="bgHui"><span><b>Tips:</b></span>
+<br/>
+<p>
+1. Appeals allow you to resolve forgotten password and security questions, modify   <br/>&nbsp;&nbsp;&nbsp;&nbsp;your security questions.<br/>
+2. The result will be sent to your email address within four hours.<br/>
+3. Once your appeal is successed, you can reset your password, security questions.<br/>
+</p>
+</span>
+<div class="apInput">
+<form action="" name="">
+<div class="apTitle">QQ Account  <input class="textInput" type="text" name="account" id="apMobile" value="QQ ID/Email/Mobile" onfocus="clearMobile()"/></div>
+<br/>
+<div class="apTitle">Verification Code <input class="textInput" type="text" name="vfcode" id="apCode" value="" /></div>
+<br/>
+<div class="apTishi">Please enter the characters from the image below (case insensitive) </div><br/>
+<div class="vfCode"> <img id="imgcapta" src="http://captcha.qq.com/getimage" /> 
+<a href="javascript:changeImg()">Not Clear?</a>
+<p class="apAgree"><input type="checkbox" name="" value="" checked/>I have read and agreed to the <a href="" target="_blank">Service Agreement</a></p>
+</div> 
+	<button type="button" id="btn_ok" class="context_text vfCode apVfcode">
+	  Confirm
+	</button>
+</form>
+
+</div>
+</div>
+</div>
+
+<div id="apFaq">
+<div class="bgHui"><span><b>FAQ:</b></span>
+<p>
+What are the steps in the appeal process? <br/>
+1. Verify your contact email address  <br/>
+2. Fill in your historical data for account verification <br/>
+3. Check your email after four hours and set new password and security questions
+<br/></p><p>
+How can I increase my chances of a successful appeal? <br/>
+1. Original Information: Provide historical data, for example, the earliest possible <br/>&nbsp;&nbsp;&nbsp;&nbsp;passwords.<br/>
+2. Completeness: Fill in as many fields as possible even if your are uncertain. You<br/> &nbsp;&nbsp;&nbsp;&nbsp;are not penalized for incorrect information.<br/>
+</p>
+</div>
+</div>
+
+</div>
+</div>
+       <div id="footer">
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </div>
+    </div>  
+  </body>
+  <script language="javascript">
+  function changeImg(){
+var rand= Math.random();
+$('#apCode').val("");
+   $('#imgcapta').attr({src:"http://captcha.qq.com/getimage?rand="+rand});
+}
+
+function clearMobile(){
+	$('#apMobile').val("");
+}
+
+  </script>
+</html>

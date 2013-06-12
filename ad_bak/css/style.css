@@ -1,12 +1,11 @@
-@charset "utf-8";
-/* CSS Document */
 body{
-    font-family:Verdana, Geneva, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
-    background: url(../images/bk.jpg) no-repeat fixed 0 0 ;
+    background: url(../images/bk.jpg) no-repeat top left fixed;
     background-size: 100% 100%;
     min-height: 700px;
 }
+
 
 /* FONT STYLES*/
 h3{
@@ -26,8 +25,9 @@ h5{
 }
 
 p{
-    font-size: 18px;
-    color: #333333;
+    font-size: 13px;
+    color: #555555;
+    line-height: 18px;
 }
 a, a:link, a:visited{
     text-decoration: none;
@@ -43,7 +43,6 @@ a, a:link, a:visited{
 .white{
     color: #fff;
 }
-
 .container_text_color{
     color: #454545
 }
@@ -51,8 +50,7 @@ a, a:link, a:visited{
     color: #464644
 }
 .context_text{
-    /*margin-left: 135px;*/
-	font-size:15px;
+    margin-left: 145px;
 }
 strong{
     font-weight: bold;
@@ -63,8 +61,7 @@ strong{
 /* HEADER */
 #header-wrap{
     border-left: 100px;
-    /*padding-top: 20px;*/
-	height:108px;
+    padding-top: 20px;
     background: url(../images/xiaoguo.png)
 }
 header{
@@ -72,35 +69,30 @@ header{
     margin: 0 auto;
     padding: 0;
 }
-#header_img{
-	padding-top:25px;
-}
 /*END HEADER*/
 
 /*ID STYLES*/
 #world-container{
     width: 900px;
-    margin: -10px auto 0; 
+    margin: 0 auto; 
 }
 #signup{
     float: right;
     display: inline;
-	margin-top:35px;
+    padding-right: 15px;
 }
 
 #imqq {
     float: right;
     display: inline;
-	color:#125f8c;
-    /*border-right: 2px solid #11608B;
-    padding-right: 15px;*/
-    margin-right: 5px;
-	margin-top:35px;
+    border-right: 2px solid #11608B;
+    padding-right: 15px;
+    margin-right: 10px;
 }
 
 #container {
-    background: #FBFDFF;
-    /*min-height: 350px;*/
+    background: #f8fcff;
+    min-height: 356px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -109,56 +101,66 @@ header{
     -webkit-box-shadow: 1px 1px 5px #999; /* Safari 和 Chrome */
     box-shadow: 1px 1px 5px #999; /* Opera 10.5 + */
 }
-.errorCon{
-	min-height:290px;
-}
-.maxMain{
-	height:1100px;
-}
 #error_icon {
      position: absolute;
-     width: 38px;
-     height: 38px;
-     margin-left: 86px;
+     width: 52px;
+     height: 52px;
+     margin-left: 88px;
+     margin-top: 62px;
 }
 #error_reason {
-	margin-left:154px;
-    margin-top: 72px;
-}
-#apError{
-	margin-top:-7px;
+    margin-top: 75px;
 }
 #btn_ok {
-	font-family:Verdana, Geneva, sans-serif;
-	border:0px;
+    font-size: 13px;
     width: 95px;
-    height: 31px;
-	text-align:center;
-	background:url(../images/button-normal.png) no-repeat;
-}
-.apOk{
-	font-size: 15px;
-	margin-top: 10px;
-}
-#btn_ok:hover{
-	background:url(../images/button-down.png) no-repeat;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 36px;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: solid 1px #CCC; /* 邊框樣式 */
+    -moz-box-shadow: 1px 1px 2px #33a1dc; /* Firefox */
+    -webkit-box-shadow: 1px 1px 2px #33a1dc; /* Safari 和 Chrome */
+    box-shadow: 1px 1px 2px #33a1dc; /* Opera 10.5 + */
 }
 /*END ID STYLE*/
 
-#footer {
-	font-size: 11px;
-	/*Position: absolute;*/
-	margin-top:20px;
-	width: 100%;
-	bottom: 0px;
-	Height: 40px;
-	text-align: center;
-	width: 960px;
-	color: #93a3bf;
-	left: 13px;
+/*appealstep1*/
+#tips{
+    margin-left: 135px;
+    margin-top: 58px;
+    color: #508ebd;
+}
+
+#tips_content{
+    margin-left: 135px;
+    color: #5b5b5d;
+}
+#form-container{
+    margin-left: 135px;
+}
+.tips_li{
+    margin-bottom: 15px;
+}
+#account{
+    margin-left: 20px;
+}
+#verification_code {
+    margin-left: 20px;
+}
+/*END appealstep1*/
+footer {
+    font-size: 11px;
+    Position: absolute;
+    width: 100%;
+    bottom: 0;
+    Height: 40px;
+    text-align: center;
+    width: 960px;
+    color: #93a3bf;
 }
 /* END HEADER */
-img{
-    border:0px;
-}
 

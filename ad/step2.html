@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>QQ Account Appeal-Personal Info</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/step2.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="world-container">
+          <div id="header-wrap">
+	<a href="index.html"  title="QQ Account Appeal">
+	  <img id="header_img" src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a> |
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
+    <div id="container">
+    
+   <div class="mainContent">
+        <div class="apTab">
+            <span class="apTab1">Contact Information</span>
+            <span class="apTab2">Apeal Information</span>
+            <span class="apTab3">Finish</span>
+        </div>
+        
+        <p>Please confirm you are appealing for <span class="apRed">2202081700 </span><span class="apGreen">Wrong account? Go back and re-enter</span></p>
+        <form action="" name="" >
+        <div class="apBasic">
+           <div class="bgHui"><span><b>Basic Appeal Information
+</b></span>
+           </div>
+           <p>Please accurately enter your personal information <span class="apGreen">Privacy Policy</span></p>
+          <div class="apInput">
+           <div class="apTitle"><div class="mySpan"><span class="apRed">*</span> Name </div>
+           
+           <input class="textInput" type="text" name="name" id="apName" value="QQ ID/Email/Mobile" onfocus="clearName()" onBlur="checkName()"/>
+           <span id="spanName" class="spanHidden">Please enter your real name</span>
+           
+           </div>
+<br/>
+<div class="apTitle apPadding"><div class="mySpan">Passport No.</div> <input class="textInput" type="text" name="passportno" id="apCode" value="" /></div>
+<br/>
+           </div>
+        </div>
+        <div class="apEmail">
+         <div class="bgHui"><span><b>Email Address
+</b></span></div>
+<div class="apInput">
+<div class="apTitle"><div class="mySpan"><span class="apRed">*</span> Email </div><input class="textInput" type="text" name="email" id="apEmail" value="" onfocus="clearEmail()" onBlur="checkEmail()"/>
+<span class="spanHidden" id="spanEmail">Please enter your email address</span>
+</div>
+<div class="apTishi">You will be notified of the progress and result of your 
+appeal through the above email address.</div>
+</div>
+	<button type="button" id="btn_ok" class="context_text apNext">
+	  Next
+	</button>
+       
+        </div>
+       </form>
+
+   </div>
+   </div>
+       <div id="footer">
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </div>
+     </div> 
+  </body>
+  <script language="javascript">
+function clearName(){
+	$('#apName').val("");
+}
+function clearEmail(){
+	$('#apEmail').val("");
+}
+function checkName(){
+	if($('#apName').val() == ""){
+		$('#spanName').removeClass('spanHidden');
+		$('#spanName').addClass('nameTishi');
+	}else{
+		$('#spanName').addClass('spanHidden');
+	}
+}
+
+function checkEmail(){
+	if($('#apEmail').val() == ""){
+		$('#spanEmail').removeClass('spanHidden');
+		$('#spanEmail').addClass('nameTishi');
+	}else{
+		$('#spanEmail').addClass('spanHidden');
+	}
+}
+
+  </script>
+</html>

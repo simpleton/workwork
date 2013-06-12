@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+.mainContent{
+	min-height:800px;
+	margin-left:78px;
+	margin-top:45px;
+	width:745px;
+}
+.apTab{
+	background:url(../images/1.png) no-repeat;
+	height:62px;
+	font-size:16px;
+	padding-top:20px;
+}
+.apTab1{
+	color:#ffffff;
+	margin-left:38px;
+}
+.apTab2{
+	color:#585858;
+	margin-left:120px;
+}
+.apTab3{
+	color:#585858;
+	margin-left:130px;
+}
+.mainContent p{
+     font-size:14px;
+	 margin-top:25px;
+}
+.apRed{
+	color:#fe831f;
+}
+.apGreen{
+	color:#266392;
+}
+.apBasic{
+	height:260px;
+	margin-top:30px;
+}
+.bgHui{	
+	height:35px;
+	background-color:#f1f5f8;
+	padding-left:5px;
+}
+.bgHui span{
+    color: #4083B6;
+    font-size: 15px;
+    line-height: 35px;	
+}
+.apBasic p{
+	margin-top:15px;
+}
+.apInput{
+	margin-left:5px;
+	margin-top:40px;
+}
+.apTitle{
+	/*margin-top:40px;*/
+	line-height:35px;
+	font-size:14px;
+	color:#333333;
+	white-space:nowrap; 
+}
+.textInput{
+	background:url(../images/input.png) no-repeat;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	border: 0 none;
+	color:#999999;
+	width:324px;
+	height:36px;
+	background-color:f3f9fc;
+	 padding-left: 5px;
+	/*margin-right:305px;
+	float:right;*/
+	
+}
+.apPadding{
+	margin-top:8px;
+}
+
+.apEmail{
+	height:365px;
+}
+.apTishi{
+	font-size:12px;
+	color:#999999;
+	margin-left:118px;
+	margin-top:17px;
+	width:328px;
+	line-height:20px;
+}
+.apNext{
+	margin-left:125px;
+	margin-top:30px;
+}
+.spanHidden{
+	display:none;
+}
+.nameTishi{
+	background:url(../images/fail-small.png) no-repeat;
+   	margin-left:13px;
+	color:#f9590d;
+	font-size:12px;
+	padding-left:20px;	
+}
+.passInput{
+	margin-left:22px;
+}
+.emailInput{
+	margin-left:63px;
+}
+.mySpan{
+    width:120px;
+	float:left;	
+}

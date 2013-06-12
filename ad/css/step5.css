@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.mainContent{
+	min-height:425px;
+	margin-left:78px;
+	margin-top:45px;
+	width:745px;
+}
+.apTab{
+	background:url(../images/3.png) no-repeat;
+	height:62px;
+	font-size:16px;
+	padding-top:20px;
+}
+.apTab1{
+	color:#585858;
+	margin-left:38px;
+}
+.apTab2{
+	color:#585858;
+	margin-left:120px;
+}
+.apTab3{
+	color:#ffffff;
+	margin-left:130px;
+}
+.mainContent p{
+     font-size:14px;
+	 margin-top:25px;
+}
+.apRed{
+	color:#fe831f;
+}
+.apGreen{
+	color:#266392;
+}
+.apFinish{
+	margin-top:25px;
+}
+.finishImg{
+	background:url(../images/smile.png) 0 center  no-repeat;
+	font-size:15.5px;
+	color:#585858;
+	margin-left:30px;
+	line-height:30px;
+	
+}
+.finishImg b{
+	padding-left:60px;
+}
+.apTishi{
+	font-size:12px;
+	color:#999999;
+	margin-left:90px;
+	margin-top:5px;
+}
+.apTextAll{
+    margin-left:90px;
+	font-size:14px;
+	color:585858;
+	line-height:28px;
+}

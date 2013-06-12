@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* step 1 */
+.mainContent{
+	width:600px;
+	height:950px;
+	margin-top:45px;
+	margin-left:160px;
+}
+#apTips{
+	height:560px;
+}
+.bgHui{	
+	width:600px;
+	height:35px;
+	background-color:#f1f5f8;
+}
+.bgHui span{
+	line-height:35px;
+	color:#4083b6;
+	font-size:15px;
+	margin-left:5px;
+}
+.bgHui  p{
+	margin-left:5px;
+    font-size:13.5px;
+	line-height:35px;	
+}
+.apInput{
+	margin-left:5px;
+	margin-top:6px;
+}
+.apTitle{
+	margin-top:24px;
+	line-height:25px;
+	font-size:14px;
+	color:#333333;
+}
+.textInput{
+	background:url(../images/input.png) no-repeat;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	border: 0 none;
+	color:#999999;
+	width:328px;
+	height:36px;
+	background-color:f3f9fc;
+	margin-right:110px;
+	float:right;
+	
+}
+.apTishi{
+	font-size:12px;
+	color:#999999;
+	margin-left:154px;
+	margin-top:10px;
+}
+.vfCode{
+    margin-left:154px;
+	margin-top:30px;
+}
+.vfCode a{
+	padding-left:5px;
+	font-size:12px;
+	color:#266392;
+}
+.apVfcode{
+	font-size:14px;
+	margin-top:5px;
+}
+.apAgree{
+	font-size:12px;
+}
+
+#apFaq{
+	height:365px;
+	margin-top:20px;
+}
+
+#apFaq .bgHui p{
+	color:#33333;
+	font-size:13.5px;
+	line-height:35px;
+	margin-top: 15px;
+}
+/*step 1 end*/

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>QQ Account Appeal-Finish</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/step5.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="world-container">
+          <div id="header-wrap">
+	<a href="index.html"  title="QQ Account Appeal">
+	  <img id="header_img" src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a> |
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
+    <div id="container">
+    
+   <div class="mainContent">
+        <div class="apTab">
+            <span class="apTab1">Contact Information</span>
+            <span class="apTab2">Apeal Information</span>
+            <span class="apTab3">Finish</span>
+        </div>
+        
+        <div class="apFinish">
+              <div class="finishImg">
+              <b>Appeal Submitted</b> <br/>
+              <b>Receipt Number for this appeal: <span class="apRed">23449888</span></b>
+              
+              </div>
+              <div class="apTishi"> Please remember your Receipt Number because you will eventually need it.</div>
+              <div class="apTextAll">
+              <p>
+              Our team is now evaluating your request and will let you know the result via email.<br/>
+Please check your email after four hours. <br/>
+If the outcome of your appeal is positive, you will be able to reset your password <br/> 
+by using Receipt Number.  <br/>
+              </p>
+              </div>
+		</div>
+
+
+   </div>
+   </div>
+       <div id="footer">
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </div>
+     </div> 
+  </body>
+  <script language="javascript">
+function clearName(){
+	$('#apName').val("");
+}
+function clearEmail(){
+	$('#apEmail').val("");
+}
+function checkName(){
+	if($('#apName').val() == ""){
+		$('#spanName').removeClass('spanHidden');
+		$('#spanName').addClass('nameTishi');
+	}else{
+		$('#spanName').addClass('spanHidden');
+	}
+}
+
+function checkEmail(){
+	if($('#apEmail').val() == ""){
+		$('#spanEmail').removeClass('spanHidden');
+		$('#spanEmail').addClass('nameTishi');
+	}else{
+		$('#spanEmail').addClass('spanHidden');
+	}
+}
+
+  </script>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>QQ Account Appeal-Check Password</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/step4.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="world-container">
+          <div id="header-wrap">
+	<a href="index.html"  title="QQ Account Appeal">
+	  <img id="header_img" src="images/logo.png">
+	</a>
+	<div id="signup"> 
+	  <a href="#" class="deep_blue">Sign up</a>
+	</div> <!--end signup-->
+	<div id="imqq">
+	  <a href="#" class="deep_blue">Imqq.com</a> |
+	</div> <!--end imqq-->
+      </div><!-- end header wrap -->
+    <div id="container">
+    
+   <div class="mainContent">
+        <div class="apTab">
+            <span class="apTab1">Contact Information</span>
+            <span class="apTab2">Apeal Information</span>
+            <span class="apTab3">Finish</span>
+        </div>
+        <form action="" name="" >
+        <div class="apBasic">
+           <div class="bgHui"><span><b>Verify Original Password Protection Information
+</b></span>
+<p>
+Enter the current password protection information for this account. <br/>
+Skip this step in case you forgot them.</p>
+           </div>
+          <div class="apInput">
+          <p>Question 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What's the name of your father?</p>
+           <div class="apTitle"> <div class="mySpan">Answer</div>
+           
+           <input class="textInput" type="text" name="answer" id="apAnswer" value="" /> 
+           </div>
+           <br/>
+  <p>Question 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What's the name of your mother?</p>
+           <div class="apTitle"> <div class="mySpan">Answer</div>
+           
+           <input class="textInput" type="text" name="name" id="apName" value="" /> 
+           </div>
+
+<br/>
+  <p>Question 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What's the birthday of your mother?</p>
+           <div class="apTitle"><div class="mySpan"> Answer</div>
+           
+           <input class="textInput" type="text" name="mbirth" id="mBirth" value="" /> 
+           </div>
+
+<br/>
+           <div class="apTitle"> <div class="mySpan">Email</div>
+           
+           <input class="textInput" type="text" name="email" id="" value="" /> 
+           </div>
+
+<br/>
+           <div class="apTitle"> <div class="mySpan">Mobile</div>
+           
+           <input class="textInput" type="text" name="mobile" id="" value="" /> 
+           </div>
+
+<br/>
+           <div class="apTitle"> <div class="mySpan">ID Type</div>
+           
+           <div class="typeId">Passport</div>
+           </div>
+
+<br/>
+           <div class="apTitle"><div class="mySpan"> Number </div>
+           
+           <input class="textInput" type="text" name="number" id="" value="" /> 
+           </div>
+
+<br/>
+	<button type="button" id="btn_ok" class="context_text apPre">
+	  Previous
+	</button>
+    	<button type="button" id="btn_ok" class="context_text apNext">
+	  Next
+	</button>
+           </div>
+        </div>
+       </form>
+
+   </div>
+   </div>
+       <div id="footer">
+	Copyright C 1998-2013 Tencent. All Rights Reserved.
+      </div>
+     </div> 
+  </body>
+  <script language="javascript">
+function clearName(){
+	$('#apName').val("");
+}
+function clearEmail(){
+	$('#apEmail').val("");
+}
+function checkName(){
+	if($('#apName').val() == ""){
+		$('#spanName').removeClass('spanHidden');
+		$('#spanName').addClass('nameTishi');
+	}else{
+		$('#spanName').addClass('spanHidden');
+	}
+}
+
+function checkEmail(){
+	if($('#apEmail').val() == ""){
+		$('#spanEmail').removeClass('spanHidden');
+		$('#spanEmail').addClass('nameTishi');
+	}else{
+		$('#spanEmail').addClass('spanHidden');
+	}
+}
+
+  </script>
+</html>
